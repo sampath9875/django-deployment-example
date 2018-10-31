@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+{% load my_custom_templates %}
+{% block body_block %}
+<h1>Welcome to the Home Page of the level 4 project's basic app </h1>
+<h2>{{ text|cut_me:'hello'}}
+{{ number|add:'99' }}
+{{ Name }}</h2>
+{% endblock %}

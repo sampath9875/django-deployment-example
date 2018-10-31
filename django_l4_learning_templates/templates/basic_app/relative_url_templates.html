@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- {% load staticfiles %} -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Relative URL HTML</title>
+</head>
+<body>
+    <h1>This file has the relative URLs of the project</h1>
+    <a href="{% url 'basic_app:other' %}">This is the link for the other page</a>
+    <a href="{% url 'admin:index' %}">This is the link for admin page</a>
+    <a href="{% url 'index' %}">Link to Home Page</a>
+</body>
+</html>
